@@ -6,7 +6,7 @@
 NAMESPACE="test"
 SERVICE_NAME="test"
 DOMAIN="${SERVICE_NAME}.endpoint.demo-domain.online"
-NODE_IP="13.56.29.176"  # Your node's IP from previous outputs
+NODE_IP="nodeip"  
 
 # Step 1: Create the test namespace if it doesn't exist
 echo "Creating namespace '$NAMESPACE' if it doesn't exist..."

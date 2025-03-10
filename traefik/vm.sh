@@ -1,11 +1,11 @@
 #!/bin/bash
-# Script to deploy a persistent VM-like pod and Traefik IngressRoute in the 'test' namespace
+
 
 # Variables
 NAMESPACE="test"
 SERVICE_NAME="test"
 DOMAIN="${SERVICE_NAME}.endpoint.demo-domain.online"
-NODE_IP="13.56.29.176"  # Your node's IP from previous outputs
+NODE_IP="node ip"  
 
 # Step 1: Create the test namespace if it doesn't exist
 echo "Creating namespace '$NAMESPACE' if it doesn't exist..."
